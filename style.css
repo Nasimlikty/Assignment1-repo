@@ -1,0 +1,203 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    margin: 5px 34px;
+}
+
+.navbar img {
+    height: 50px;
+    margin: 3px 6px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-right: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+li.active a {
+    background-color: rgb(226, 160, 160);
+}
+
+.navbar ul li a:hover {
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-size: 50px;
+}
+
+.orange {
+    color: orangered;
+}
+
+.green {
+    color: green;
+}
+
+.flex {
+    display: flex;
+    background-image: url(f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    background-image: url(ff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.first img {
+    width: 70%;
+}
+
+a:hover {
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(124, 197, 197), rgb(132, 132, 211), rgb(180, 204, 132));
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.button2:hover {
+    background-color: blanchedalmond;
+    color: red;
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+#services {
+    margin: 70px;
+    display: flex;
+    display: wrap;
+
+
+}
+
+#services .box {
+    border-radius: 20px;
+    background-color: rgb(226, 197, 197);
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+    padding: 20px;
+    height: 330px;
+
+}
+
+.h-primarys {
+    font-size: 40px;
+    margin-top: 70px;
+
+}
+
+.h-secondary {
+    text-align: center;
+    padding: 10px;
+}
+
+#services .box img {
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.followers {
+    background-color: white;
+    box-shadow: 10px 10px 50px rgb(219, 184, 184);
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.followers .b {
+    width: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    line-height: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.color {
+    color: orange;
+}
